@@ -1,0 +1,24 @@
+Conversão de temperatura
+
+declaracao de variaveis
+opt, v1, v2 : flutuante
+
+escreva ("Selecione uma opção:
+1-Celsius p/ Fahrenheit
+2-Celisus p/ Kelvin
+3-Kelvin p/ Fahrenheit
+4-Kelvin p/ Celsius
+5-Fahrenheit p/ Celsius
+6-Fahrenheit p/ Kelvin")
+
+leia (opt)
+escreva ("Digite o Valor: ")
+leia (v1)
+se (opt = 1)
+	v1 <- v1/5
+	v2 <- (v1 * 9) + 32
+	escreva ("v2ºF")
+senao se (opt = 2)
+	
+	
+	
